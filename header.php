@@ -10,8 +10,9 @@
     <header class="header">
         <nav >
             <ul class="list">
-                <li><a href="index.php">HOME</a></li>
-                <li><a href="contacto.php">CONTACTO</a></li>
+                <li><a class="home" href="index.php">HOME</a></li>
+                <li><a class="jugadores" href="jugadores.php">JUGADORES</a></li>
+                <li><a class="contacto" href="contacto.php">CONTACTO</a></li>
             </ul>
         </nav>
     </header>

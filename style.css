@@ -109,3 +109,47 @@ textarea {
     outline: none;
   }
 }
+
+.lista_fechas{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0;
+  font-size: 20px;
+  cursor: pointer;
+}
+.home{
+  color: lightblue;
+}
+.jugadores{
+  color: yellow;
+  text-shadow: lightblue 1px 1px 2px;
+}
+.contacto{
+  color: lightskyblue;
+}
+.container_jugadores{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: column;
+}
+.title{
+  width: 600px;
+  text-align: center;
+}
+.lista_fechas li {
+  border: 1px solid lightblue;
+  background-color: lightblue;
+  padding: 15px;
+  border-radius: 3px;
+  
+}
+
+.lista_fechas :nth-child(2){
+  border: 1px solid yellow;
+  background-color: lightyellow;
+}
